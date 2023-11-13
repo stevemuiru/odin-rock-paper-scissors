@@ -1,1 +1,3 @@
-# odin-rock-paper-scissors
+# odin-Rock
+Project rock paper scissors
+A simple game of rock paper scissors
