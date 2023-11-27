@@ -2,8 +2,50 @@
 <html>
     <head>
      <title>Rock Paper Scissors</title>
-     <script src = "index.js">
-        
-     </script>
+     <link rel="stylesheet" href="style.css">
     </head>
+  <body>
+    <div class="container">
+        <button class="rock">🪨</button>
+        <button class="paper">📄</button>
+        <button class="scissors">✂️</button>
+    </div>
+    <div class="results"></div>
+    <script src = "index.js">
+       
+    </script>
+  </body>
+  <style>
+    body{
+      display: grid;
+      place-items: center;
+    }
+    .container{
+      padding: 200px;
+    }
+    .rock, .paper, .scissors{
+      border: 0;
+      height: 150px;
+      width: 150px;
+      border-radius: 50%;
+      background-color: #FFFF00;
+      gap: 150px;
+      font-size: 5em;
+      padding: 15px;
+    }
+    .rock, .paper, .scissors:hover{
+      cursor: pointer;
+    }
+    p{
+      color: #0000FF;
+      text-transform: uppercase;
+      text-decoration: solid;
+    }
+    h2{
+      color: #00FF00;
+      text-transform: uppercase;
+      text-decoration: solid;
+      
+    }
+  </style>
 </html>
